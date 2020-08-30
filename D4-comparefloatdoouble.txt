@@ -1,0 +1,12 @@
+/*Day 4, the difference between float and double*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float e1=2.718281828459045f;
+    double e2=2.718281828459045;
+    printf("e1=%16.15f\n",e1);/*%16.15f represent 16-digit number and 12 digits after the point*/
+    printf("e2=%16.15f\n",e2);
+    system("pause");
+    return 0;
+}
